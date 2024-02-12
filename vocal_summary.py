@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 
 
 def format_sample(sample: str):
-"""Reformat text to numbers."""
+    """Reformat text to numbers."""
     try:
         return float(sample)
     except:
@@ -22,7 +22,7 @@ def format_sample(sample: str):
 
 #%%
 
-datafile = './assets/data/.processed.csv'
+datafile = './assets/data/processed.csv'
 header = True
 
 datamat = np.array([]) # this will hold data in a matrix
